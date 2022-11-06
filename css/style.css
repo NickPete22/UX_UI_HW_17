@@ -1,5 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  background: url("../images/pramod-tiwari-qE2xl1Tc9Js-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 body {
-    margin: 0;
   }
   header {
     background-color: #373738;
@@ -19,14 +26,10 @@ body {
     display: inline-block;
   }
   .heroImg {
-    background-image: url(/images/pramod-tiwari-qE2xl1Tc9Js-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 15px;
   }
   h1 {
     color: #005281;
+    font-size: 28px;
   }
   h2 {
     font-size:medium;
@@ -51,7 +54,10 @@ body {
     font-weight: medium;
     border-radius: 4px;
     width: 200px;
-    margin: 5px;
+    margin: 30px;
+  }
+  .content p {
+    margin: 10px;
   }
   button:hover {
     background-color: #f14d29;
